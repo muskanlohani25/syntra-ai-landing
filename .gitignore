@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local submission documentation and media
+demo_video.webp
+SUBMISSION.md
+
