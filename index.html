@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/svgs/cube-16-solid.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Metadata -->
+    <title>Syntra AI | Next-Gen AI Data Automation Platform</title>
+    <meta name="description" content="Build high-performance, real-time AI-driven data pipelines. Seamlessly transform formats, route metrics, and automate workflows with Syntra AI." />
+    <meta name="author" content="Syntra AI" />
+    
+    <!-- Open Graph (OG) Tags -->
+    <meta property="og:title" content="Syntra AI | Next-Gen AI Data Automation Platform" />
+    <meta property="og:description" content="Build high-performance, real-time AI-driven data pipelines. Seamlessly transform formats, route metrics, and automate workflows with Syntra AI." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://syntra.ai" />
+    <meta property="og:image" content="https://syntra.ai/assets/og-image.png" />
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Syntra AI | Next-Gen AI Data Automation Platform" />
+    <meta name="twitter:description" content="Build high-performance, real-time AI-driven data pipelines. Seamlessly transform formats, route metrics, and automate workflows with Syntra AI." />
+    
+    <!-- CSS link is handled automatically by Vite, but we ensure it mounts correctly -->
+  </head>
+  <body>
+    <!-- App Loader Splash Screen -->
+    <div id="app-loader" role="presentation" aria-hidden="true">
+      <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header>
+      <div class="container header-container">
+        <a href="#" class="logo" aria-label="Syntra AI Home">
+          <svg viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/>
+          </svg>
+          <span>Syntra AI</span>
+        </a>
+        <nav aria-label="Main Navigation">
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+          </ul>
+        </nav>
+        <button class="header-cta" id="cta-header" type="button">Launch Console</button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="badge-tag">
+            <svg style="width: 14px; height: 14px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+            </svg>
+            <span>v2.4 LTS Released</span>
+          </div>
+          <h1 class="hero-title">Automate the Flow of Data. <span>Programmatically.</span></h1>
+          <p class="hero-description">
+            The next-generation AI-driven data pipeline platform built for speed, integrity, and scale. Connect your tools, translate formats, and route anywhere in real-time.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="cta-hero-primary" type="button">Start Free Trial</button>
+            <button class="btn btn-secondary" id="cta-hero-secondary" type="button">Schedule Demo</button>
+          </div>
+
+          <!-- Metrics Display Widget -->
+          <div class="metric-widget" aria-label="Real-time Performance Metrics">
+            <div class="metric-card">
+              <h3>&lt; 15ms</h3>
+              <p>Global End-to-End Latency</p>
+            </div>
+            <div class="metric-card">
+              <h3>99.999%</h3>
+              <p>Guaranteed Pipeline Uptime</p>
+            </div>
+            <div class="metric-card">
+              <h3>8.4B+</h3>
+              <p>Events Orchestrated Daily</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bento Grid / Accordion Features Section -->
+      <section class="bento-section" id="features">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">Features</p>
+            <h2 class="section-title">A Unified Engine for Data Operations</h2>
+            <p class="section-description">
+              Supercharge your pipeline with native integrations, AI parsing, and global low-latency replication.
+            </p>
+          </div>
+
+          <!-- Desktop Bento Grid -->
+          <div class="bento-grid" role="list">
+            <!-- Card 0 (Large) -->
+            <div class="bento-item size-large" data-index="0" role="listitem">
+              <div class="bento-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93c.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204c.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78c-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107c-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93c-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204c-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78c.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107c.397-.165.71-.505.78-.929l.15-.894Z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0a3 3 0 0 1 6 0Z"/>
+                </svg>
+              </div>
+              <h3>AI Translation Engine</h3>
+              <p>Fully Automated Schema Matching. Parse, validate, and align diverse raw data formats on the fly with high-accuracy, sub-millisecond LLM embedding structures.</p>
+            </div>
+
+            <!-- Card 1 (Tall) -->
+            <div class="bento-item size-tall" data-index="1" role="listitem">
+              <div class="bento-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 0 1 5.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"/>
+                </svg>
+              </div>
+              <h3>Predictive Analytics</h3>
+              <p>Monitor pipelines and forecast growth. Prevent bottlenecks before they happen with automated ML prediction logic.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bento-item" data-index="2" role="listitem">
+              <div class="bento-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"/>
+                </svg>
+              </div>
+              <h3>Real-Time Pipeline Sync</h3>
+              <p>Stream changes instantly with 0ms query delay and active multi-region data caching.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bento-item" data-index="3" role="listitem">
+              <div class="bento-icon-wrapper">
+                <svg viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/>
+                </svg>
+              </div>
+              <h3>Data Integration Grid</h3>
+              <p>Seamless ingestion across Snowflake, Postgres, and vector databases with zero custom plugins.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bento-item" data-index="4" role="listitem">
+              <div class="bento-icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/>
+                </svg>
+              </div>
+              <h3>Visual Analytics</h3>
+              <p>Track delivery metrics, query rates, and performance indexes via elegant interactive graphs.</p>
+            </div>
+          </div>
+
+          <!-- Mobile Accordion (Visible on Mobile Only) -->
+          <div class="mobile-accordion">
+            <!-- Accordion Item 0 -->
+            <div class="accordion-item" data-index="0">
+              <button class="accordion-header" id="accordion-trigger-0" aria-expanded="false" aria-controls="accordion-panel-0">
+                <span class="accordion-title-wrapper">
+                  <span class="accordion-icon-wrapper">
+                    <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93c.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204c.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78c-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107c-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93c-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204c-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78c.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107c.397-.165.71-.505.78-.929l.15-.894Z"/>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0a3 3 0 0 1 6 0Z"/>
+                    </svg>
+                  </span>
+                  <h3>AI Translation Engine</h3>
+                </span>
+                <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/>
+                </svg>
+              </button>
+              <div class="accordion-content" id="accordion-panel-0" role="region" aria-labelledby="accordion-trigger-0">
+                <div class="accordion-inner">
+                  Fully Automated Schema Matching. Parse, validate, and align diverse raw data formats on the fly with high-accuracy, sub-millisecond LLM embedding structures.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item" data-index="1">
+              <button class="accordion-header" id="accordion-trigger-1" aria-expanded="false" aria-controls="accordion-panel-1">
+                <span class="accordion-title-wrapper">
+                  <span class="accordion-icon-wrapper">
+                    <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 0 1 5.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"/>
+                    </svg>
+                  </span>
+                  <h3>Predictive Analytics</h3>
+                </span>
+                <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/>
+                </svg>
+              </button>
+              <div class="accordion-content" id="accordion-panel-1" role="region" aria-labelledby="accordion-trigger-1">
+                <div class="accordion-inner">
+                  Monitor pipelines and forecast growth. Prevent bottlenecks before they happen with automated ML prediction logic.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item" data-index="2">
+              <button class="accordion-header" id="accordion-trigger-2" aria-expanded="false" aria-controls="accordion-panel-2">
+                <span class="accordion-title-wrapper">
+                  <span class="accordion-icon-wrapper">
+                    <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"/>
+                    </svg>
+                  </span>
+                  <h3>Real-Time Pipeline Sync</h3>
+                </span>
+                <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/>
+                </svg>
+              </button>
+              <div class="accordion-content" id="accordion-panel-2" role="region" aria-labelledby="accordion-trigger-2">
+                <div class="accordion-inner">
+                  Stream changes instantly with 0ms query delay and active multi-region data caching.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item" data-index="3">
+              <button class="accordion-header" id="accordion-trigger-3" aria-expanded="false" aria-controls="accordion-panel-3">
+                <span class="accordion-title-wrapper">
+                  <span class="accordion-icon-wrapper">
+                    <svg style="width: 20px; height: 20px;" viewBox="0 0 16 16" fill="currentColor">
+                      <path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/>
+                    </svg>
+                  </span>
+                  <h3>Data Integration Grid</h3>
+                </span>
+                <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/>
+                </svg>
+              </button>
+              <div class="accordion-content" id="accordion-panel-3" role="region" aria-labelledby="accordion-trigger-3">
+                <div class="accordion-inner">
+                  Seamless ingestion across Snowflake, Postgres, and vector databases with zero custom plugins.
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion Item 4 -->
+            <div class="accordion-item" data-index="4">
+              <button class="accordion-header" id="accordion-trigger-4" aria-expanded="false" aria-controls="accordion-panel-4">
+                <span class="accordion-title-wrapper">
+                  <span class="accordion-icon-wrapper">
+                    <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/>
+                    </svg>
+                  </span>
+                  <h3>Visual Analytics</h3>
+                </span>
+                <svg class="accordion-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25l-7.5 7.5l-7.5-7.5"/>
+                </svg>
+              </button>
+              <div class="accordion-content" id="accordion-panel-4" role="region" aria-labelledby="accordion-trigger-4">
+                <div class="accordion-inner">
+                  Track delivery metrics, query rates, and performance indexes via elegant interactive graphs.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Matrix Pricing Tier Section -->
+      <section class="pricing-section" id="pricing">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">Plans & Pricing</p>
+            <h2 class="section-title">Scale Gracefully with Matrix Rates</h2>
+            <p class="section-description">
+              Get calculated pricing adjusted dynamically based on your region and target billing cycle.
+            </p>
+          </div>
+
+          <!-- Pricing Controls (Billing & Currency Switcher) -->
+          <div class="pricing-controls">
+            <!-- Billing Switcher Toggle -->
+            <div class="toggle-wrapper" role="radiogroup" aria-label="Billing Cycle Toggle">
+              <button class="toggle-btn active" id="billing-toggle-monthly" type="button" role="radio" aria-checked="true">Monthly</button>
+              <button class="toggle-btn" id="billing-toggle-annual" type="button" role="radio" aria-checked="false">Annual (-20%)</button>
+            </div>
+
+            <!-- Currency Select Dropdown -->
+            <div class="currency-select-wrapper">
+              <label for="currency-select" class="sr-only" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0;">Select Currency</label>
+              <select id="currency-select" class="currency-select">
+                <option value="USD">USD ($)</option>
+                <option value="EUR">EUR (€)</option>
+                <option value="INR">INR (₹)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Price Cards Grid -->
+          <div class="pricing-grid">
+            <!-- Starter Tier -->
+            <div class="pricing-card">
+              <h3 class="tier-name">Starter</h3>
+              <div class="tier-price">
+                <span class="price-currency" id="price-starter-symbol">$</span>
+                <span id="price-starter-value">19</span>
+                <span class="price-period" id="price-starter-period">/mo</span>
+              </div>
+              <p class="tier-desc">Essential pipeline automation tools for early startups and small dev teams.</p>
+              <ul class="pricing-features">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  Up to 10M events/month
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  3 Custom Schema Pipelines
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  24h Log Retention
+                </li>
+              </ul>
+              <button class="pricing-btn pricing-btn-secondary" id="buy-starter-btn" type="button">Start Building</button>
+            </div>
+
+            <!-- Professional Tier -->
+            <div class="pricing-card featured">
+              <h3 class="tier-name">Professional</h3>
+              <div class="tier-price">
+                <span class="price-currency" id="price-professional-symbol">$</span>
+                <span id="price-professional-value">49</span>
+                <span class="price-period" id="price-professional-period">/mo</span>
+              </div>
+              <p class="tier-desc">Advanced features and scalability options for growing companies.</p>
+              <ul class="pricing-features">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  Up to 100M events/month
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  Unlimited Pipelines
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  AI Mapping Engine Support
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  7 Days Log Retention
+                </li>
+              </ul>
+              <button class="pricing-btn pricing-btn-primary" id="buy-professional-btn" type="button">Upgrade to Pro</button>
+            </div>
+
+            <!-- Enterprise Tier -->
+            <div class="pricing-card">
+              <h3 class="tier-name">Enterprise</h3>
+              <div class="tier-price">
+                <span class="price-currency" id="price-enterprise-symbol">$</span>
+                <span id="price-enterprise-value">149</span>
+                <span class="price-period" id="price-enterprise-period">/mo</span>
+              </div>
+              <p class="tier-desc">Fully customized clusters, dedicated endpoints, and custom regional SLAs.</p>
+              <ul class="pricing-features">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  Unlimited Events Orchestrated
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  Custom VPC/Region Deploy
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="width: 14px; height: 14px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75l6 6 9-13.5"/>
+                  </svg>
+                  24/7 Priority SLA Support
+                </li>
+              </ul>
+              <button class="pricing-btn pricing-btn-secondary" id="buy-enterprise-btn" type="button">Contact Sales</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ticker Reviews Section -->
+      <section class="ticker-section" id="reviews">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-subtitle">Testimonials</p>
+            <h2 class="section-title">Developer Feedback</h2>
+          </div>
+        </div>
+        
+        <!-- Infinite Scrolling Testimonials Ticker -->
+        <div class="ticker-wrapper" aria-label="Client Testimonials">
+          <!-- Card 1 -->
+          <div class="ticker-card">
+            <div class="ticker-rating">★★★★★</div>
+            <p class="ticker-feedback">"Syntra's isolated UI state transition feels incredibly snappy, and loading metrics are outstanding. The Bento layout context transfer is pure magic."</p>
+            <div class="ticker-author">
+              <div class="ticker-avatar">AB</div>
+              <div class="ticker-author-info">
+                <h4>Alex Beltran</h4>
+                <p>Lead Engineer, NetFlow</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="ticker-card">
+            <div class="ticker-rating">★★★★★</div>
+            <p class="ticker-feedback">"The performance-isolated pricing toggle is awesome. No parent component layout thrashing at all under DevTools audits. Exceptional code quality."</p>
+            <div class="ticker-author">
+              <div class="ticker-avatar">SK</div>
+              <div class="ticker-author-info">
+                <h4>Sarah K.</h4>
+                <p>Tech Lead, CloudScale</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="ticker-card">
+            <div class="ticker-rating">★★★★★</div>
+            <p class="ticker-feedback">"We migrated our ETL pipelines to Syntra and latency dropped by 70%. Best dev experience I've had in years."</p>
+            <div class="ticker-author">
+              <div class="ticker-avatar">JM</div>
+              <div class="ticker-author-info">
+                <h4>Julio M.</h4>
+                <p>Principal Architect, Voxel</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="ticker-card">
+            <div class="ticker-rating">★★★★★</div>
+            <p class="ticker-feedback">"Flawless mobile layout transition. Tapping the accordion feels smooth and responsive. Exactly what we needed."</p>
+            <div class="ticker-author">
+              <div class="ticker-avatar">LN</div>
+              <div class="ticker-author-info">
+                <h4>Lukas Novak</h4>
+                <p>CTO, DataWave</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duplicate cards for infinite loop scroll -->
+          <!-- Card 1 Duplicate -->
+          <div class="ticker-card" aria-hidden="true">
+            <div class="ticker-rating">★★★★★</div>
+            <p class="ticker-feedback">"Syntra's isolated UI state transition feels incredibly snappy, and loading metrics are outstanding. The Bento layout context transfer is pure magic."</p>
+            <div class="ticker-author">
+              <div class="ticker-avatar">AB</div>
+              <div class="ticker-author-info">
+                <h4>Alex Beltran</h4>
+                <p>Lead Engineer, NetFlow</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 Duplicate -->
+          <div class="ticker-card" aria-hidden="true">
+            <div class="ticker-rating">★★★★★</div>
+            <p class="ticker-feedback">"The performance-isolated pricing toggle is awesome. No parent component layout thrashing at all under DevTools audits. Exceptional code quality."</p>
+            <div class="ticker-author">
+              <div class="ticker-avatar">SK</div>
+              <div class="ticker-author-info">
+                <h4>Sarah K.</h4>
+                <p>Tech Lead, CloudScale</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 Duplicate -->
+          <div class="ticker-card" aria-hidden="true">
+            <div class="ticker-rating">★★★★★</div>
+            <p class="ticker-feedback">"We migrated our ETL pipelines to Syntra and latency dropped by 70%. Best dev experience I've had in years."</p>
+            <div class="ticker-author">
+              <div class="ticker-avatar">JM</div>
+              <div class="ticker-author-info">
+                <h4>Julio M.</h4>
+                <p>Principal Architect, Voxel</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 Duplicate -->
+          <div class="ticker-card" aria-hidden="true">
+            <div class="ticker-rating">★★★★★</div>
+            <p class="ticker-feedback">"Flawless mobile layout transition. Tapping the accordion feels smooth and responsive. Exactly what we needed."</p>
+            <div class="ticker-author">
+              <div class="ticker-avatar">LN</div>
+              <div class="ticker-author-info">
+                <h4>Lukas Novak</h4>
+                <p>CTO, DataWave</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <h3>Syntra AI</h3>
+          <p>The next-generation AI-driven data pipeline platform built for speed, integrity, and scale.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/></svg>
+            </a>
+            <a href="#" aria-label="Twitter/X">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Changelog</a></li>
+            <li><a href="#">Roadmap</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">API Reference</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Syntra AI Inc. All rights reserved.</p>
+        <p>Built for the Phase 1 Next-Gen Speed Run.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts entrypoint -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
